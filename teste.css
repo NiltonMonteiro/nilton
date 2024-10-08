@@ -1,0 +1,714 @@
+header {
+    background-color: #968f8f; /* Header background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center all header items */
+    align-items: center; /* Center items vertically */
+    padding: 30px; /* Padding around header */
+    color: #fff; /* Text color */
+}
+
+.nome {
+    margin-right: auto; /* Pushes the menu to the center */
+}
+
+.menu {
+    margin: 0 auto; /* Center the menu */
+}
+
+.menu ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flex for horizontal menu */
+    margin: 0; /* Remove default margin */
+}
+
+.menu ul li {
+    margin: 0 20px; /* Space between menu items */
+}
+
+.menu ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Button styles */
+.header-buttonsA {
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius:20px ; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    color: rgb(38, 25, 223); /* Text color */
+    transition: background-color 0.3s; /* Smooth transition */
+    background-color: white;
+}
+
+.header-buttonsB {
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius:20px ; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    color: white; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition */
+    background-color: rgb(38, 25, 223);
+}
+
+
+
+.header-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+
+/* Additional styles for the main content */
+.foto-cliente {
+    position: relative; /* Position relative to enable absolute positioning of children */
+    text-align: center; /* Center text */
+}
+
+.foto-cliente img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.ola {
+    position: absolute; /* Position absolutely over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset for perfect centering */
+    color: white; /* Change color for better visibility */
+    text-align: center; /* Center text alignment */
+    padding: 20px; /* Add padding for spacing */
+}
+
+h1, p {
+    margin: 0; /* Remove default margins */
+}
+
+/* Button container styles */
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; /* Add space above buttons */
+    gap: 50px;
+}
+
+.side-buttonA {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 20px; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* Button color */
+    color: black; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+
+.side-buttonB {
+    border-radius: 5px; /* Rounded corners */
+    margin: 0 10px; /* Space between buttons */
+    font-size: 16px; /* Font size */
+    background-color: black; /* Cor de fundo preto */
+    color: white; /* Texto branco */
+    border: none; /* Remover borda padrão */
+    padding: 10px 20px; /* Adicionar um pouco de espaçamento */
+    cursor: pointer; /* Mudar o cursor ao passar o mouse */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+.side-buttonB:hover {
+    background-color: white; /* Cor de fundo branca ao passar o mouse */
+    color: black; /* Texto preto ao passar o mouse */
+}
+
+/* Hover effect for side buttons */
+.side-buttonA:hover {
+    background-color: #070e16; /* Darker color on hover */
+    color: white;
+}
+
+
+header {
+    background-color: #968f8f; /* Header background color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center all header items */
+    align-items: center; /* Center items vertically */
+    padding: 30px; /* Padding around header */
+    color: #fff; /* Text color */
+}
+
+.nome {
+    margin-right: auto; /* Pushes the menu to the center */
+}
+
+.menu {
+    margin: 0 auto; /* Center the menu */
+}
+
+.menu ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flex for horizontal menu */
+    margin: 0; /* Remove default margin */
+}
+
+.menu ul li {
+    margin: 0 20px; /* Space between menu items */
+}
+
+.menu ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Button styles */
+.header-buttons {
+    display: flex; /* Use flex for button layout */
+    gap: 10px;
+   /* Space between buttons */
+}
+
+.header-buttons {
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius:20px ; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    color: rgb(46, 43, 43); /* Text color */
+    transition: background-color 0.3s; /* Smooth transition */
+  
+   
+}
+
+/* Hover effect for header buttons */
+.header-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.hed{
+    position: fixed;
+    height: 100px;
+    top: 0;
+    z-index: +1;
+    width: 95.2%;
+}
+
+/* Additional styles for the main content */
+.foto-cliente {
+    position: relative; /* Position relative to enable absolute positioning of children */
+    text-align: center; /* Center text */
+}
+
+.foto-cliente img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.ola {
+    position: absolute; /* Position absolutely over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset for perfect centering */
+    color: white; /* Change color for better visibility */
+    text-align: center; /* Center text alignment */
+    padding: 20px; /* Add padding for spacing */
+}
+
+h1, p {
+    margin: 0; /* Remove default margins */
+}
+
+/* Button container styles */
+.button-container {
+     /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons */
+    margin-top: 20px; /* Add space above buttons */
+    gap: 50px;
+}
+
+.side-button {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 20px; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    transition:0.3s; /* Smooth transition */
+}
+body{
+    background-color: black;
+    margin: 45px; 
+}
+
+.side-Button {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 20px; /* Button padding */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 20px; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    transition:0.3s; /* Smooth transition */
+}
+.side-button:hover{
+    background-color: aqua;
+
+}
+.side-Button {
+    background-color: #0c0b0b;
+}
+.button-container {
+    margin-top: 10px;
+}
+
+.side-button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Hover effect for side buttons */
+.side-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.mim {
+    margin-top: 40px;
+    font-size: 23px; /* Font size for the paragraph */
+    color: #0c0b0b; /* Slightly lighter text color */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+.sobre-mim {
+    display: flex; /* Ativa o flexbox */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-around; /* Espaça os elementos igualmente */
+    margin: 20px 0; /* Margem em cima e embaixo */
+    gap:600px;
+    font-size: 1.5em;
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    padding: 20px;
+    margin-top: -20px;
+    
+}
+
+
+
+.sb {
+    white-space: nowrap; /* Impede quebras de linha */
+    font-size: 2em; /* Ajuste o tamanho conforme necessário */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    top: 10px;
+}
+.habilidades {
+  
+    display: flex; /* Usar flexbox para alinhamento lado a lado */
+    margin-top: -20px; /* Espaço acima da seção */
+    padding: 100px;
+    background: #c7c5c5; /* Fundo da seção */
+    border-radius: 5px; /* Bordas arredondadas */
+    align-items: center;
+    gap:250px;
+}
+
+
+
+.habilidade-imagem img {
+    width: 600px; /* A imagem ocupa toda a largura do contêiner */
+    height:500px; /* Mantém a proporção da imagem */
+}
+
+
+
+.hability {
+    font-size: 23px; 
+    color: #0c0b0b; 
+    line-height: 1.5; 
+    margin-right: 50px;
+}
+
+
+
+.projectos{
+text-align: center;
+font-size: large;
+font-size: 45px;
+color: white;
+margin-top: -20px;
+padding: 100px;
+
+
+}
+
+.projectos p{
+    text-align: center;
+    font-size: large;
+    font-size: 15px;
+    color: white;
+    margin-top: -20px;
+    padding: 100px;
+}
+.project-group {
+    display: flex; 
+    justify-content: space-around ; /* Espaço entre as colunas */
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte, se necessário */
+    margin-top:-180px ;
+}
+
+
+.project-group img{
+    margin: 100px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.project {
+    display: flex;
+    gap: 5px; /* Espaçamento entre as imagens */
+    overflow: hidden;
+    transition: 1.5;
+}
+
+
+.project img {
+    transition: 1.5;
+    width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção */
+    overflow: hidden;
+    transition: 1.5;
+}
+
+
+
+
+.tecnologias {
+    padding: 20px;
+    background: black;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    gap: 700px;
+    justify-content: space-around;
+   
+}
+.tecnologias h2{
+    color: whitesmoke;
+    font-size: 3rem ;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.tecnologias-imagem {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 59px;
+
+}
+.tecnologias-imagem p{
+    color: whitesmoke;
+}
+
+
+
+.meus{
+    color: whitesmoke;
+    font-size: 2rem;
+    margin-right: 100px;
+   
+}
+
+/* Responsive styles */
+@media (max-width:100px) {
+    .foto-cliente {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .foto-cliente img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .habilidades {
+        flex-direction: column;
+    }
+
+    .habilidade-imagem img {
+        max-width: 100%;
+    }
+
+    .project-group {
+        flex-direction: column;
+    }
+
+    .project {
+        flex: 1 1 100%;
+    }
+}
+
+.tec img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+    color:whitesmoke;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 10px;
+}
+
+.tec {
+    flex: 1 1 30%; /* Adjusts the basis to control how many items fit in a row */
+    margin: 0; /* Removes margins to bring items closer */
+    padding: 10px; /* Adds padding for spacing within each item */
+    text-align: center;
+    gap: 300px;
+}
+
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    margin: 60px;
+}
+
+.item {
+   
+        width: 300px; /* largura padrão */
+        max-width: 400px; /* largura máxima */
+        height: 150px;
+        padding: 20px;
+        margin: 4px; /* centraliza horizontalmente */
+        background-color: rgb(17, 151, 224);
+        gap: 100px;
+        
+    }
+
+
+
+.stars {
+    font-size: 1em; /* Tamanho das estrelas */
+}
+
+.description {
+    font-size: 13px; /* Tamanho da descrição */
+    margin: 10px 0;
+}
+
+.image {
+    width: 40px; /* Imagem ocupa toda a largura do item */
+    border-radius: 100%;
+    margin-top: 10px; /* Espaço acima do nome */
+}
+
+.nome {
+    font-weight: bold; /* Texto em negrito */
+    font-size: 1em; /* Tamanho do texto do nome */
+    color: whitesmoke; /* Cor do texto */
+}
+.image-container {
+    display: flex; /* Usar flexbox para alinhar a imagem e o nome */
+    align-items: center; /* Alinha verticalmente */
+    margin-top: 10px; /* Espaço acima */
+    gap: 20px;
+}
+
+.cliente-op{
+    background-color: white;
+}
+.op {
+    top: 50%; /* Center vertically */
+    color: black; /* Change color for better visibility */
+    text-align: center; /* Center text alignment */
+    padding: 20px; /* Add padding for spacing */
+    font-size: 35px;
+}
+.op p{
+    font-size: 17px;
+    color: black; /* Change color for better visibility */
+    font-size: 20px;
+
+}
+.latest{
+    top: 50%; /* Center vertically */
+    color: white; /* Change color for better visibility */
+    text-align: left; /* Center text alignment */
+    padding: 20px; /* Add padding for spacing */
+    margin:20px;
+}
+.latest p{
+
+ font-size: 20px;
+}
+
+.latest h2{
+    color: #a0a3a7;
+    font-size: 40px;
+}
+
+.todo-inf{
+    background-color: black;
+}
+
+.outrocontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.car{
+    background-color: #413c3c;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 750px;
+    color: #4e4c4c;
+    text-align: center;
+    height: 350px;
+}
+.car img{
+    width: 400px;
+    gap: 10px;
+
+}
+footer {
+    background-color: white; /* Cor de fundo do footer */
+    color: #ecf0f1; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte */
+    padding: 80px 0; /* Espaçamento interno */
+    margin: 0px;
+    margin-top: -40px;
+}
+
+/* Container principal do footer */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente */
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centraliza */
+    padding: 0 0px; /* Espaçamento lateral */
+}
+
+/* Estilo das seções do footer */
+.footer-left, .footer-center, .footer-right {
+    flex: 1; /* Faz as seções ocuparem espaço igual */
+   
+}
+
+.footer-left , .footer-center , .footer-right :hover {
+    color: #3498db; /* Cor ao passar o mouse */
+}
+
+.footer-center p{
+    
+    color: black;
+}
+
+.footer-center p:hover{
+    color: #3498db;
+
+}
+.footer-left p{
+    color: black;
+
+}
+.footer-left p:hover{
+    color: #3498db;
+
+}
+.footer-right p{
+    color: black;
+
+}
+/* Navegação */
+.footer-center nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding */
+}
+
+.footer-center nav ul li {
+    display: inline; /* Exibe os itens em linha */
+    margin: 0 8px; /* Espaçamento entre itens */
+   
+}
+
+.footer-center nav ul li a {
+    color: black; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s; /* Transição suave para hover */
+    
+  
+}
+
+.footer-center nav ul li a:hover {
+    color: #3498db; /* Cor ao passar o mouse */
+}
+
+/* Estilo das imagens no footer direito */
+.footer-right a img {
+    max-width: 30px; /* Largura máxima das imagens */
+    margin: 0 5px; /* Espaçamento entre imagens */
+    transition: transform 0.3s; /* Transição suave para hover */
+    border-radius: 100%;
+}
+
+.footer-right a img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Estilo da linha contínua */
+hr {
+    border: 1px solid black; /* Cor da linha */
+    margin: 20px 0; /* Margem superior e inferior */
+}
+
+/* Estilo da parte inferior do footer */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px; /* Espaçamento */
+    background-color: white; /* Cor de fundo da parte inferior */
+    color: black; /* Cor do texto */
+    margin: 0px;
+}
+
+/* Estilo do texto */
+.footer-bottom p {
+    margin: 0; /* Remove margem */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+
+
+
+
+
+
+
